@@ -11,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BroadcastDemo">
+        <service
+            android:name=".BroadcastService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".activity_next"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
